@@ -1,0 +1,195 @@
+@media screen and (max-width: 992px) {
+  .input-cari .button-secondary {
+    display: block;
+    width: 120px;
+    font-size: 14px;
+    border-radius: 0;
+  }
+
+  .input-cari .button-primary {
+    font-size: 24px;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  #rekomendasi {
+    margin-top: 100px;
+  }
+
+  .button-fitur {
+    width: 100%;
+  }
+
+  #contact h3 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .card-contact {
+    width: 100%;
+    height: auto;
+    margin-top: 42px;
+  }
+
+  .card-contact h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .rumahimpian {
+    margin-bottom: 20px;
+  }
+
+  .card-maps iframe {
+    width: 100%;
+    height: 400px;
+  }
+
+  .beranda {
+    margin-bottom: 20px;
+  }
+
+  #project h2 {
+    font-size: 36px;
+  }
+
+  #project p {
+    font-size: 20px;
+  }
+
+  .projectbox-head {
+    gap: 5rem;
+  }
+
+  .project-box {
+    width: 300px;
+    height: 300px;
+  }
+
+  .card-layanan {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-tagline h1 {
+    line-height: 52px;
+  }
+  .img-hero {
+    width: 75%;
+    height: auto;
+  }
+  h2 {
+    font-size: 32px;
+  }
+
+  .sub-title {
+    font-size: 16px;
+  }
+
+  .card-layanan {
+    margin: 15px 0;
+  }
+
+  .projectbox-head {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  #project h2 {
+    font-size: 28px;
+  }
+
+  #project p {
+    font-size: 18px;
+  }
+
+  .project-title {
+    padding-top: 50px;
+  }
+
+  .projectbox-head {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .project-box {
+    width: 250px;
+    height: 250px;
+  }
+
+  .project-box .logo {
+    max-width: 70%;
+    max-height: 70%;
+  }
+
+  .card-maps iframe {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  
+  #project h2 {
+    font-size: 24px;
+  }
+
+  #project p {
+    font-size: 16px;
+  }
+
+  .project-title {
+    padding-top: 40px;
+  }
+
+  .projectbox-head {
+    gap: 1.5rem;
+  }
+
+  .project-box {
+    width: 200px;
+    height: 200px;
+  }
+
+  .project-box .logo {
+    max-width: 60%;
+    max-height: 60%;
+  }
+
+  .card-maps iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+}
+
+@media (max-width : 320px) {
+  #project h2 {
+      font-size: 20px;
+    }
+  
+    #project p {
+      font-size: 12px;
+    }
+  
+    .project-title {
+      padding-top: 20px;
+    }
+  
+    .projectbox-head {
+      gap: 1rem;
+    }
+  
+    .project-box {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .project-box .logo {
+      max-width: 50%;
+      max-height: 50%;
+    }
+}
